@@ -8,13 +8,13 @@ import { Album } from './models/album.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
+  currentPlayingSong: string = "Test Song ft. DJ Cole";
   album: Array<Album> = [
     {
       artist: 'Ariana Grande',
       coverUrl: 'https://upload.wikimedia.org/wikipedia/en/7/7a/Sweetener_album_cover.png',
       title: 'Sweetener',
-      releaseDate: new Date('9/18/2018'),
+      releaseDate: "10/29/2018",
       owned: false,
       trackList: [
         'Raindrops (An Angel Cried)',

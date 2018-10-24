@@ -2,7 +2,7 @@ export interface Album {
   artist: string;
   coverUrl: string;
   title: string;
-  releaseDate: Date;
+  releaseDate: string;
   owned: boolean;
   trackList: string[];
 }
